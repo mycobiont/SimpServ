@@ -1,1 +1,2 @@
 # SimpServ
+This is just a simple data service I'm creating for my own needs.  Service is intended to access database with a read-only user for security.  Queries must be pre-defined in a database query table.  Each query can take in client-specified parameters that are inserted into SQL via prepared statements.  Each must be included in the query with the synax {parametername}. Output is intended to include CSV, JSON, and HTML <table>.
